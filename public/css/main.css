@@ -1,0 +1,20 @@
+body {
+  font: 100% font-stack; }
+
+p {
+  color: #005DAA; }
+
+header {
+  background-image: linear-gradient(red, orange);
+  padding: 1em;
+  margin: -1em; }
+  header nav {
+    background-color: #3F3F44;
+    padding: 1em; }
+    header nav ul {
+      color: #FFD200; }
+    header nav li {
+      display: inline-block;
+      padding: 0 0.2em; }
+
+/*# sourceMappingURL=main.css.map */
