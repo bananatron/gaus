@@ -1,4 +1,6 @@
 require 'sinatra'
+require 'sinatra/activerecord'
+require './config/environments'
 
 module Gaus
   class App < Sinatra::Base
