@@ -5,6 +5,7 @@ gem 'rack'
 gem 'activerecord'
 gem 'sinatra-activerecord', '~> 2.0', '>= 2.0.9'
 gem 'rake'
+gem 'pg'
 group :test do
   gem 'rspec'
   gem 'rack-test'
