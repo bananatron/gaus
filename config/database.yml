@@ -1,6 +1,9 @@
 development:
   adapter: postgresql
+  encoding: unicode
   database: gaus
   username: <%= ENV['PG_USER'] %>
   password: <%= ENV['PG_PASS'] %>
   host: localhost
+  post: 5432
+  

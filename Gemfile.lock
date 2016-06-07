@@ -57,6 +57,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  json
   pg
   rack
   rack-test
