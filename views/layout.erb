@@ -20,27 +20,26 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
      <!-- /container -->        
-     <div class="container-fluid">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#">Branding Icon</a></li>
-                    <li>Student Data</li>
-                    <li>View Student</li>
-                    <li>New</li>
-                </ul>
-            </nav>
-            
-        </header>
+
+     <div class="container">
+        <%= yield %>
      </div>
      
-     <%= yield %>
+     <!-- Begin Footer -->
+
+     <!-- End Footer -->
 
      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.min.js"></script>
+
         <script src="js/main.js"></script>
+
+
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
     </body>
 </html>
