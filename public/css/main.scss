@@ -1,33 +1,88 @@
-$font-stack: Helvetica, sans-serif;
-$primary-color: #005DAA;
-$secondary-color: #FFD200;
-$brand_text_: none;
-
-body {
-    font: 100% font-stack;
-}
-
-p {
-    color: $primary-color;
-}
+$light_grey: #ecf0f1;
+$light_bg: #484848;
 
 header {
-  background-image: linear-gradient(red, orange);
-  padding: 1em;
-  margin: -1em;
+    nav {
+        background-color: $light_bg;
+        color: $light_grey;
+        
+        ul {
+            list-style-type: none;
+            padding: 0 0 1em 0;
+            margin: 1em 0 -1em 0;
+        }
+    
+        li {
+            display: inline-block;
+        }
+    
+    }
+}
 
-  nav {
-      background-color: #3F3F44;
-      padding: 1em;
-      ul {
-          color: $secondary-color;
-      }
+#graph {
+    min-height: 300px;
+    margin-bottom: 1em;
+    background-color: pink;
+}
 
-      li {
-          display: inline-block;
-          padding: 0 0.2em;
-      }
-  }
+.print-btn-container {
+    padding: 1em;
 
 }
+
+.graph-container {
+
+    ul {
+        list-style-type: none;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: #95a5a6;
+    }
+
+    li {
+        display: inline-block;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        color: #212121;
+
+    }
+    
+    li:nth-child(1) {
+        background-color: #3498db;
+        width: 90px;
+        
+        color: #ecf0f1;
+        padding: 0 0.5em 0 0.5em;
+        margin: 0 1em 0 0em;
+    }
+    
+    .standard-scores {
+
+        color: $light_bg;
+        border: 1px solid #dce0e0;
+        border-top: none;
+    }
+
+    .scaled-scores {
+
+        color: $light_bg;
+        border: 1px solid #dce0e0;
+        border-top: none;
+    }
+    .t-scores {
+
+        color: $light_bg;
+        border: 1px solid #dce0e0;
+        border-top: none;
+    }
+    .rank-scores {
+
+        color: $light_bg;
+        border: 1px solid #dce0e0;
+        border-top: none;
+    }
+}
+
+
+
 
